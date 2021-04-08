@@ -1,0 +1,21 @@
+infobox:
+  remote: http://github.com/zrpnr/ckeditor5-plugin-infobox
+  version: 0.0.0
+  license:
+    name: GNU-GPL-2.0-or-later
+    url: http://github.com/zrpnr/ckeditor5-plugin-infobox/blob/master/LICENSE.md
+    gpl-compatible: true
+  js:
+    js/infobox.js: { preprocess: false, minified: true }
+  css:
+    theme:
+      css/infobox.css: { }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+admin:
+  css:
+    theme:
+      css/infobox.admin.css: { }
+  dependencies:
+    - ckeditor5/ckeditor5

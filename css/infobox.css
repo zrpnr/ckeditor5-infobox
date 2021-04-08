@@ -1,0 +1,36 @@
+.info-box {
+  padding: 2rem 4rem;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+}
+
+.info-box::before {
+  content: attr(data-label);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  padding: .25rem .5rem;
+  background: rgba(0 0 0 .2);
+}
+
+.info-box--notice {
+  background: #63A5F2;
+  border: 2px solid #4E82BE;
+}
+
+.info-box--warning {
+  background: #EBBD64;
+  border: 2px solid #C8A155;
+}
+
+.info-box--error {
+  background: #E3796E;
+  border: 2px solid #B9635A;
+}
+
+.info-box--demo {
+  background: #92C561;
+  border: 2px solid #77A04F;
+}

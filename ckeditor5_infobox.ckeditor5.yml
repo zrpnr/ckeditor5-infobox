@@ -1,0 +1,21 @@
+infobox:
+  library: ckeditor5_infobox/infobox
+  admin_library: ckeditor5_infobox/admin
+  plugins:
+    - infoBox.InfoBox
+  toolbar_items:
+    infoBox:
+      label: Info Box
+  plugin_config:
+    infoBox:
+      - label: Notice
+        modifier: notice
+      - label: Warning
+        modifier: warning
+      - label: Error
+        modifier: error
+      - label: Demo
+        modifier: demo
+  elements:
+    - <div class>
+    - <section class>

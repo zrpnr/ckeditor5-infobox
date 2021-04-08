@@ -1,0 +1,1 @@
+/Users/peter.weber/Work/ck5/ckeditor5-plugin-infobox/build/infobox.js

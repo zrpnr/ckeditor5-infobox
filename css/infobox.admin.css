@@ -1,0 +1,30 @@
+.ckeditor5-toolbar-button-infoBox {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+.ckeditor5-toolbar-button-infoBox::before {
+  content: 'infoBox';
+  margin-left: 10px;
+  font-size: 14px;
+}
+[dir="rtl"] .ckeditor5-toolbar-button-infoBox::before {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.ckeditor5-toolbar-button-infoBox::after {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  height: 7px;
+  width: 7px;
+  transform: rotate(135deg);
+}
+[dir="rtl"] .ckeditor5-toolbar-button-infoBox::after {
+  margin-right: 0;
+  margin-left: 10px;
+}
