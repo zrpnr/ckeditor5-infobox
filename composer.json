@@ -1,5 +1,5 @@
 {
-  "name": "ddrager/ckeditor-infobox",
+  "name": "ddrager/ckeditor5-infobox",
   "description": "Adds an infobox module to CKEditor5 in Drupal",
   "type": "drupal-module",
   "homepage": "https://www.drupal.org/project/ckeditor5",
