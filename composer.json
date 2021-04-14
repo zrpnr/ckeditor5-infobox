@@ -1,0 +1,15 @@
+{
+  "name": "ddrager/ckeditor5-infobox",
+  "description": "Adds an infobox module to CKEditor5 in Drupal",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/ckeditor5",
+  "support": {
+    "issues": "https://www.drupal.org/project/ckeditor5",
+    "source": "https://github.com/ddrager/ckeditor5-infobox"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/ckeditor5": "^1.0.x-dev"
+  }
+}
