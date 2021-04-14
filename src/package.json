@@ -1,0 +1,28 @@
+{
+  "name": "ckeditor5-plugin-infobox",
+  "version": "1.0.0",
+  "description": "Configurable infoboxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ckeditor5:dll": "npm --prefix node_modules/ckeditor5 install; cd node_modules/ckeditor5 && webpack --config=./scripts/dll/webpack.config.dll.js",
+    "build:dll": "npm run build:ckeditor5:dll; pwd && webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrpnr/ckeditor5-plugin-infobox.git"
+  },
+  "author": "Peter Weber (zrpnr)",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zrpnr/ckeditor5-plugin-infobox/issues"
+  },
+  "homepage": "https://github.com/zrpnr/ckeditor5-plugin-infobox#readme",
+  "devDependencies": {
+    "ckeditor5": "git+https://github.com/ckeditor/ckeditor5",
+    "raw-loader": "^4.0.2",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
